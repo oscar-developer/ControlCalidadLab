@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://oscar-developer.github.io/ControlCalidadLab/build",
+  "homepage": "https://oscar-developer.github.io/control-calidad-lab/dist",
+               
   "scripts": {    
     "dev": "vite",
     "build": "vite build",
