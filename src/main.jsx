@@ -8,11 +8,27 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 import './index.css'
-import { CssBaseline } from '@mui/material';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+const theme = createTheme({
+  palette:{
+    mode:"light",
+    primary:{
+      main:"#004d40",
+    },
+    secondary:{
+      main:"#b5000d6"
+    },
+  },
+});
+import {BrowserRouter} from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CssBaseline />
-    <App />
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <CssBaseline />
+        <App />
+      </BrowserRouter>      
+    </ThemeProvider>    
   </React.StrictMode>,
 )
