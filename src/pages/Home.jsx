@@ -53,7 +53,7 @@ export default function Home(){
             </Grid>        
             
         
-            <h1>Listar Receta</h1>
+            <h3>Listar Receta(en proceso)</h3>
             
         </>
     );
