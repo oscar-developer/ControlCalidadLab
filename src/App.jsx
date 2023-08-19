@@ -10,6 +10,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import LoginIcon from '@mui/icons-material/Login';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
 
+
 const navArrayLinks =[
   {
       title:"Home",
@@ -42,6 +43,7 @@ export default function App() {
             <Route path ="/control-calidad-lab/register" element={<Register/>}/>
           </Routes>          
         </Container>
+        {/* <MuiTable></MuiTable> */}
     </>
     
   );
